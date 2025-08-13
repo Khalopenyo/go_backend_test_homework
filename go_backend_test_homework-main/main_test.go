@@ -6,10 +6,10 @@ import (
 )
 
 var (
-	requiredFiles = []string{"README.md", "main.go", "main_test.go", "go.mod"}
+	requiredFiles = []string{"README.md", "main.go", "main_test.go", "go.mod"} // firsy commit
 )
 
-func TestCheckRequiredFiles(t *testing.T) {
+func TestCheckRequiredFiles(t *testing.T) { // ILISHAN
 
 	dir, err := os.Getwd()
 	if err != nil {
